@@ -30,6 +30,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 # OpenGapps
 GAPPS_VARIANT := nano
 
-GAPPS_PRODUCT_PACKAGES += Turbo
+GAPPS_PRODUCT_PACKAGES += Turbo \
+    DigitalWellbeing
 
 $(call inherit-product-if-exists, vendor/opengapps/build/opengapps-packages.mk)
